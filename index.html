@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="sai">
+    <meta name="keywords" content="html,css,bootstrap">
+    <meta name="description" content="pickbazar webpage">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/index.css">
+    <style>
+        a {
+            color: rgb(0, 128, 102) !important;
+            text-decoration: none;
+        }
+
+
+        .col:hover {
+            transform: translateY(-.4rem);
+            transition: 1s;
+            box-shadow: 0 0 1rem;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <main id="home">
+
+        <nav class="container-fluid">
+            <section>
+                <article>
+                    <img src="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+                        alt="">
+                </article>
+                <article>
+                    <select name="" id="">
+                        <option value="">
+                            <aside><ion-icon name="fast-food-outline"></ion-icon></aside>
+                            <aside>BACKERY</aside>
+                        </option>
+                        <option value="">
+                            <aside><ion-icon name="logo-apple"></ion-icon></aside>
+                            <aside>GROCERY</aside>
+                        </option>
+                        <option value="">
+                            <aside><ion-icon name="brush-outline"></ion-icon></aside>
+                            <aside>MAKEUP</aside>
+                        </option>
+                        <option value="">
+                            <aside><ion-icon name="bag-handle-outline"></ion-icon></aside>
+                            <aside>BAGS</aside>
+                        </option>
+                        <option value="">
+                            <aside><ion-icon name="storefront-outline"></ion-icon></aside>
+                            <aside>FURNITURE</aside>
+                        </option>
+                    </select>
+                </article>
+            </section>
+
+            <section class="d-flex justify-content-evenly">
+                <article><a href="">Shops</a></article>
+                <article><a href="">Offers</a></article>
+                <article><a href="">FAQ</a></article>
+                <article><a href="">Contact</a></article>
+                <article><button>Become a Seller</button></article>
+                <article><button>Join</button></article>
+            </section>
+        </nav>
+
+        <section>
+            <article>
+                <h1>Get Your Backery items Delivered</h1>
+            </article>
+            <article>
+                <p>Get your favorite bakery items baked and delivered to your doorsteps at any time</p>
+            </article>
+            <article class="inpbtn">
+                <aside class="input"><input type="text" name="" id="" placeholder="Search your products here"></aside>
+                <aside class="button"><button class="d-flex justify-content-center align-items-center gap-1"><ion-icon
+                            name="search"></ion-icon> Search</button></aside>
+            </article>
+        </section>
+
+
+        <aside>
+
+            <div class="fixed btn" data-bs-toggle="offcanvas" data-bs-target="#canvas"
+                style="background-color:rgb(0, 159, 127) ;">
+                <div>
+                    <p><ion-icon name="bag-check"></ion-icon></p>
+                    <p>0 item</p>
+                </div>
+                <div class="bg-white py-1 rounded" style="color:rgb(0, 159, 127);">$ 0.00</div>
+            </div>
+
+            <section class="offcanvas offcanvas-end" id="canvas">
+
+                <section class="offcanvas-header">
+                    <section class="offcanvas-content" style="color:rgb(0, 159, 127);">
+                        <ion-icon name="bag-check"></ion-icon> 0item
+                    </section>
+
+                    <section class="btn btn-close"
+                        style="background-color:rgb(0, 159, 127); border-radius: 50%; font-size: 0.3rem;"
+                        data-bs-dismiss="offcanvas"></section>
+                </section>
+
+                <section class="offcanvas-body">
+
+                    <section class="offcanvas-content">
+                        <section style="color:rgb(0, 159, 127); font-size: 8rem; text-align: center;"><ion-icon
+                                name="bag-handle"></ion-icon></section>
+                        <section style="font-size: 0.7rem; text-align: center;">
+                            <p>no products found</p>
+                        </section>
+                    </section>
+
+                </section>
+
+                <section class="offcanvas-footer my-2 mx-4 p-1"
+                    style="background-color:rgb(0, 159, 127); border-radius: 1rem; font-size: 0.6rem; font-weight: bold; color: white;">
+
+                    <section class="offcanvas-content d-flex justify-content-between">
+                        <div style="padding:0.5rem ;">Checkout</div>
+                        <span
+                            style="background-color: white; color: rgb(0, 159, 127);padding: 0.5rem; border-radius: 1rem;">$
+                            0.00</span>
+                    </section>
+
+                </section>
+
+
+
+
+            </section>
+
+
+
+        </aside>
+
+
+    </main>
+    <div class="container-fluid d-flex  gap-1 text-center p-4 " style=" background-color: rgba(128, 128, 128, 0.121);">
+
+        <div
+            style="width: 12.5rem; padding: 1rem; height: 10.5rem; border: .5px solid rgba(0, 0, 0, 0.084); background-color: white; border-radius: .5rem;">
+            <img height="79%"
+                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F422%2FJuice_q1dlke.png&w=1920&q=75"
+                alt="">
+            <p>Juice</p>
+        </div>
+        <div
+            style="width: 12.5rem; padding: 1rem; height: 10.5rem; border: .5px solid rgba(0, 0, 0, 0.084); background-color: white; border-radius: .5rem;">
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F423%2FCoffee_j6vccc.png&w=1920&q=75"
+                alt="">
+            <p>Coffee & Tea</p>
+        </div>
+        <div
+            style="width: 12.5rem; padding: 1rem; height: 10.5rem; border: .5px solid rgba(0, 0, 0, 0.084); background-color: white; border-radius: .5rem;">
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F424%2FCookies_ggshwp.png&w=1920&q=75"
+                alt="">
+            <p>Cookies</p>
+        </div>
+        <div
+            style="width: 12.5rem; padding: 1rem; height: 10.5rem; border: .5px solid rgba(0, 0, 0, 0.084); background-color: white; border-radius: .5rem;">
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F425%2FRound-Cake_rfsrkr.png&w=1920&q=75"
+                alt="">
+            <p>Round-Cake</p>
+        </div>
+        <div
+            style="width: 12.5rem; padding: 1rem; height: 10.5rem; border: .5px solid rgba(0, 0, 0, 0.084); background-color: white; border-radius: .5rem;">
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F426%2FPita-Bread_bvrwtn.png&w=1920&q=75"
+                alt="">
+            <p>Pita-Bread</p>
+        </div>
+        <div
+            style="width: 12.5rem; padding: 1rem; height: 10.5rem; border: .5px solid rgba(0, 0, 0, 0.084); background-color: white; border-radius: .5rem;">
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F427%2FChees-Cake_whi1yd.png&w=1920&q=75"
+                alt="">
+            <p>Chees-Cake</p>
+        </div>
+        <div
+            style="width: 12.5rem; padding: 1rem; height: 10.5rem; border: .5px solid rgba(0, 0, 0, 0.084); background-color: white; border-radius: .5rem;">
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F428%2FMuffin_yiuqcf.png&w=1920&q=75"
+                alt="">
+            <p>Muffin</p>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="container-fluid" style="background-color: rgba(128, 128, 128, 0.121); padding: 1rem;">
+
+        <div class="row" style="padding: 1rem; column-gap: .5rem; padding-right: 2rem;">
+            <div class="col" style="width: 14rem;     transition: 1s;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F489%2FJuice-5_eqrtuu.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$1.80</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Ritai Organic Orange Juice 500 ml</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+ color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                20%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F490%2FJuice5_bz8od4.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$2.40
+                            <span style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">
+                                $3.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Wonderful Pomegranate Juice, 300 ml
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F491%2FJuice4_1_xt54si.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$1.50</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Kirkland Organic Lemonade, 150 ml</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F492%2FJuice-1_lx8xnf.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$2.25</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Sun Tropics Organic Mango Nectar,250ml
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F493%2FJuice2_lnhqsp.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$1.25</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Pressed Juicery Super Citrus Plus,
+                            200ml</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="row" style="padding: 1rem; column-gap: .5rem; padding-right: 2rem;">
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F495%2FCoffee_Tea_oo00oz.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$0.50</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Freshly Brewed Organic Green Tea</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                17%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F496%2FCoffee_Tea-5_ktc2il.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$1.25
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$1.50</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Fresh Grinded Frappé coffee, 50ml</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F497%2FCoffee_Tea-3_zlgz6x.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$1.50</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Caffee Nero Mocha Late 50ml</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                30%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F498%2FCoffee_Tea-6_wlaqgp.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$0.70
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$1.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Nescafe Clasico Instant Coffee, 2 x
+                            10.5 oz</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F499%2FCoffee_Tea-1_rnxxwg.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$0.50</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Fresh Traditional English Tea</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="row" style="padding: 1rem; column-gap: .5rem; padding-right: 2rem;">
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F501%2FCoffee_Tea-7_nijstz.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$2.50</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Peet Coffee Decaf Major Dickason
+                            Blend, 2 lb</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                13%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F502%2FCookies-4_vmbpqm.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$3.50
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$4.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Raspberry Crumble Cookies 300g</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                38%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F503%2FCookies-3_x85w4w.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$2.50
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$4.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Chocolate Chip Cookie, 250g</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F504%2FCookies_lquuja.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$4.50</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Freshly Baked Chocolate Chip Cookie,
+                            250g</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                13%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F506%2FCookies-2_osbjsh.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$7.00
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$8.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Freshly Baked Mixed Cookies, 890g</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <div class="row" style="padding: 1rem; column-gap: .5rem; padding-right: 2rem;">
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                30%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F507%2FCookies-5_oire6k.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$3.50
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$5.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Freshly Baked Raspberry Cookies 250g
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F508%2FRound_Cake-8_rjbmjc.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$11.75</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Signature Chocolate Cake Iced Fudge 7
+                            oz</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                20%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F510%2FRound_Cake-7_ygffyu.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$12.00
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$15.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Ritai Organic Orange Juice 500 ml</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F510%2FRound_Cake-7_ygffyu.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$12.00</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Cafe Valley Triple Chocolate Cake 4 lb
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col" style="width: 14rem;    transition: 1s;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F512%2FRound_Cake-3_pigscm.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$10.00</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Signature German Chocolate Cake 4 lb
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="row" style="padding: 1rem; column-gap: .5rem; padding-right: 2rem;">
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F514%2FRound_Cake_on61hh.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$7.00</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">One Layer Decorated Chocolate Cake 1.3
+                            lb</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                10%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F516%2FPita_Bread-6_whabjs.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$1.80
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$2.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Garlic Filled Pita Bread</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F517%2FPita_Bread-2_daz412.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$2.00</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Giannis Big Pita Bread</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                17%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F518%2FPita_Bread_ovbpdz.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$2.50
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$3.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Alamir Bakery Pita Bread</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F515%2FPita_Bread-8_asbled.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$2.00</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Al Shams Pita Bread, 10 pcs</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <p style="height: .5rem; display: flex; justify-content: end;">
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </p>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F519%2FPita_Bread-3_uzisgc.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$2.25</h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Joseph's Flax Whole Wheat Pita Bread
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                10%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F513%2FRound_Cake-2_cczqay.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$7.20
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$8.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Rubics Bakery Strawberry 3 Layer Cake
+                            2kg</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                10%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F513%2FRound_Cake-2_cczqay.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$7.20
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$8.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Rubics Bakery Strawberry 3 Layer Cake
+                            1kg</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                10%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F513%2FRound_Cake-2_cczqay.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$7.20
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$8.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Rubics Bakery Strawberry 3 Layer Cake
+                            5kg</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col" style="width: 14rem;">
+                <div class="card" style="width: 14.5rem; height: 20rem; border: .5px solid rgba(0, 0, 0, 0.062); ">
+                    <div class="card-header" style=" border: none; background-color: white;">
+                        <span style="height: 1.5rem; display: flex; justify-content: space-between; width: 100%;">
+                            <h6
+                                style="font-size: .7rem; 
+                        color: white; background-color: rgb(0, 128, 102); padding: .1rem; width: 2rem; text-align: center; border-radius: .2rem;">
+                                10%</h6>
+                            <ion-icon
+                                style=" border-radius: .3rem; border: .5px solid rgba(0, 0, 0, 0.103); padding: .5rem;"
+                                name="add-sharp"></ion-icon>
+                        </span>
+                        <img class="img-fluid" width="90%"
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F513%2FRound_Cake-2_cczqay.jpg&w=1920&q=75"
+                            alt="">
+
+                    </div>
+                    <div class="card-body" style="height: 5rem !important; ">
+                        <h1 style="font-size: 1rem;">$7.20
+                            <span
+                                style="font-size: .8rem; color: rgba(0, 0, 0, 0.45); text-decoration: line-through;">$8.00</span>
+                        </h1>
+                        <p style="font-size: .9rem; color: rgba(0, 0, 0, 0.457);">Rubics Bakery Strawberry 3 Layer Cake
+                            3kg</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+        <section class="d-flex justify-content-center align-items-center items">
+            <button class="p-2 border rounded w-25" style="font-weight: bold;">Load More</button>
+        </section>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
